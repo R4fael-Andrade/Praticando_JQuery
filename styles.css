@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #3366ff;
+    padding: 16px;
+    color: #fff;
+}
+
+header button {
+    margin-left: 16px;
+    width: 100px;
+    border-radius: 18px;
+}
+input,
+button {
+    padding: 8px;
+}
+
+form {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+button {
+    border: none;
+    background-color: #0099ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0975bd;
+}
+
+.item-clicado{
+    text-decoration: line-through;
+}
+
+ul li{
+    padding: 6px;
+    font-size: 18px;
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
